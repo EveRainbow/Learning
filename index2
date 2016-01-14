@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+<script>
+
+
+var name = 'Alex';
+
+
+
+
+//1
+
+
+function output() {
+  
+	var param = 'Mr. ' + name;
+  
+  
+
+	return function() {
+    
+	return param;
+	
+};
+
+}
+
+
+var counter = output(name);
+
+alert (counter());
+
+
+
+
+
+</script>
+
+</body>
+
+
+
+</html>
