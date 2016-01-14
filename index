@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+<script>
+
+
+
+var name = 'Alex';
+
+
+
+
+//1
+
+
+function output(param) {
+   
+	var pop = 'Mr. ' + param;
+ 
+  
+   
+	return function() {
+     
+	return pop;
+
+	};
+
+}
+
+
+
+var bb = output(name);
+
+alert (bb());
+
+
+
+
+</script>
+
+</body>
+
+
+
+</html>
